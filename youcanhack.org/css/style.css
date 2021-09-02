@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    width: 70%;
+    height: 775px;
+}
+
+#banner {
+    font-family: Fipps;
+    font-size: 250%;
+    padding: 40px 00px;
+    display: block;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#banner_link img {
+    height: 100px;
+    width: inherit;
+    vertical-align: middle;
+    float: right;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px grey;
+    margin-right: 20px;
+    margin-top: -10px;
+    position: relative;
+}
+
+h1 {
+    font-family: Volter;
+    font-size: 203%;
+    margin: 40px 52px 0 52px;
+    font-weight: bold;
+}
+
+li{
+    color: dodgerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav{
+    font-family: Volter;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+p{
+    margin: 4px 52px 4px 52px;
+    font-family: monospace;
+}
+
+@font-face {
+    font-family: Volter;
+    src: url('../fonts/Volter__28Goldfish_29.ttf')
+}
+a, a:hover, a:visited {
+    color: dodgerblue;
+}
+
+
+.fs-4 {
+    font-size: 1.0rem!important;
+}
+
